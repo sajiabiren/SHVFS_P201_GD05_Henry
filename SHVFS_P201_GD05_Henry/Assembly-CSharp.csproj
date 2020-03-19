@@ -58,13 +58,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\HackMan\C1\Scripts\BaseComponent\BaseGridMovement.cs" />
      <Compile Include="Assets\HackMan\C1\Scripts\BaseComponent\BaseGridObject.cs" />
-     <Compile Include="Assets\HackMan\C1\Scripts\BaseComponent\Components\Ghost.cs" />
-     <Compile Include="Assets\HackMan\C1\Scripts\BaseComponent\Components\HackMan.cs" />
+     <Compile Include="Assets\HackMan\C1\Scripts\BaseComponent\Components\EnemyInputComponent.cs" />
      <Compile Include="Assets\HackMan\C1\Scripts\BaseComponent\Components\LevelGenerator.cs" />
      <Compile Include="Assets\HackMan\C1\Scripts\BaseComponent\Components\Pill.cs" />
+     <Compile Include="Assets\HackMan\C1\Scripts\BaseComponent\Components\PlayerInputComponent.cs" />
      <Compile Include="Assets\HackMan\C1\Scripts\BaseComponent\Components\Wall.cs" />
+     <Compile Include="Assets\HackMan\C1\Scripts\BaseComponent\MovementComponent.cs" />
      <Compile Include="Assets\HackMan\C1\Scripts\Types\ExtensionMehods.cs" />
      <Compile Include="Assets\HackMan\C1\Scripts\Types\IntVector2.cs" />
  <Reference Include="Unity.Timeline.Editor">
