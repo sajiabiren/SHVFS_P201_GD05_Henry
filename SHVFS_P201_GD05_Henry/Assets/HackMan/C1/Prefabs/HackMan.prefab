@@ -13,9 +13,13 @@ GameObject:
   - component: {fileID: 9074386327786470151}
   - component: {fileID: 7162223237497823651}
   - component: {fileID: 7633508130607051402}
+  - component: {fileID: 8842392686142793214}
+  - component: {fileID: 3641017869554361329}
+  - component: {fileID: -3932676398634386141}
+  - component: {fileID: -6062096562126544579}
   m_Layer: 0
   m_Name: HackMan
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +32,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7438978532957616355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.95451, y: -2.047012, z: -0.328125}
+  m_LocalPosition: {x: -5.95451, y: -2.047012, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -107,3 +111,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Movementspeed: 3
+--- !u!54 &8842392686142793214
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438978532957616355}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3641017869554361329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438978532957616355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f3b4ac665f4e059f05f535e624ea95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-3932676398634386141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438978532957616355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f2e14ffadca4a5c8a76bea7f0ff26e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-6062096562126544579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438978532957616355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630f526a293488747bb1a361ae537b8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: Player

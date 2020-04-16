@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace HackManC1
 {
@@ -25,5 +27,24 @@ namespace HackManC1
                 currentInputDirecton = new IntVector2(1, 0);
             }
         }
+
+        // private void OnTriggerEnter(Collider other)
+        // {
+        //     if (other.GetComponent<Pill>())
+        //     {
+        //         Destroy(other.gameObject);
+        //         if (FindObjectsOfType<Pill>().Length <= 1)
+        //         {
+        //             Debug.Log(("You win!!!!"));
+        //             SceneManager.LoadScene("HackMan/C1/Scenes/GameScene");
+        //         }
+        //     }
+        //
+        //     if (other.GetComponent<EnemyInputComponent>())
+        //     {
+        //         Debug.Log("You lose!!!!");
+        //         SceneManager.LoadScene("HackMan/C1/Scenes/GameScene");
+        //     }
+        // }
     }
 }

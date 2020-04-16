@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace HackManC1
 {
-
+    
     public class MovementComponent : BaseGridObject
     {
         public float Movementspeed;

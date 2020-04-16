@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/HackMan/C1/Scenes/GameScene.unity
+    guid: 5f1c7781bbddce341bbe9cba1ac80188
   m_configObjects: {}

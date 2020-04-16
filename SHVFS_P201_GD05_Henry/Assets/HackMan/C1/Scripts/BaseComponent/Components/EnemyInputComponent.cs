@@ -37,6 +37,9 @@ namespace HackManC1
                 {
                     possibleDirections.Add(-currentInputDirecton);
                 }
+                
+                // LINQ -> Language Integrated Query
+                
 
                 int direction = Random.Range(0, possibleDirections.Count);
                 currentInputDirecton = possibleDirections[direction];
