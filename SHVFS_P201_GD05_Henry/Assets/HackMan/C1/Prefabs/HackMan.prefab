@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 8842392686142793214}
   - component: {fileID: 3641017869554361329}
   - component: {fileID: -3932676398634386141}
-  - component: {fileID: -6062096562126544579}
   m_Layer: 0
   m_Name: HackMan
   m_TagString: Player
@@ -151,16 +150,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f2e14ffadca4a5c8a76bea7f0ff26e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-6062096562126544579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7438978532957616355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 630f526a293488747bb1a361ae537b8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerName: Player

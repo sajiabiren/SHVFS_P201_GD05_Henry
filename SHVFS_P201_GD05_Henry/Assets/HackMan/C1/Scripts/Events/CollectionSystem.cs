@@ -2,8 +2,10 @@
 
 namespace HackManC1
 {
-    public class CollectionSystem : MonoBehaviour
+    public class CollectionSystem : Singleton<CollectionSystem>
     {
+        public void Init(){}
+        
         // I need to subscribe to some message and do something, when I'm collecting...
         private void OnEnable()
         {
@@ -17,6 +19,7 @@ namespace HackManC1
         
         private void OnCollectionEvent(CollectionEvent evt)
         {
+            ScoreComponent.Instance.score += 1;
             Destroy(evt.Collectable.gameObject);
         }
     }
